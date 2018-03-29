@@ -6,19 +6,25 @@
                 margin: 0;
                 font-family: "Conv_maptu", "Open Sans Condensed", Helvetica, Arial, sans-serif;
                 height: 100%;
+                background-color: #080302;
+                color: #d8cbbd;
             }
 
             #header {
-                background-color: white;
+                background-color: #080302;
+                color: #d8cbbd;
                 padding: 10px 50px;
                 opacity: 0.7;
-                position: fixed;
+                /*                position: fixed;*/
+                /*                position: sticky;*/
             }
 
             #header > nav > div.col-md-10.mainmenu > a {
                 float: right;
-                                font-size: 18px;
+                font-size: 18px;
                 letter-spacing: 1px;
+                color: #d8cbbd;
+
 
                 /*                margin-right: -20px;*/
             }
@@ -38,14 +44,14 @@
             }
 
             #footer {
-                background-color: #46494F;
-                color: #fff;
+                /*                background-color: #46494F;*/
+                /*                color: #000;*/
                 padding: 25px 50px;
                 font-size: 14px;
                 text-align: center;
             }
 
-            
+
 
             section.image {
                 height: 100%;
@@ -53,14 +59,35 @@
                 background-position: center;
                 background-size: cover;
                 background-attachment: fixed;
+                position: relative;
+            }
+
+            div.title {
+                position: absolute;
+                right: 3vh;
+                top: 19vh;
+            }
+
+            div.title > h1 {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+                width: 40vw;
+                height: 10vh;
+                padding-left: 3vw;
+                padding-top: 1vh;
+            }
+
+            div.title > p {
+                padding-left: 40vh;
+
             }
 
             section.text {
-                max-width: 50vw;
+                max-width: 60vw;
                 padding: 20px;
-                padding: 20px 0;
                 position: relative;
-                height: 100%;
+                height: auto;
+                padding-top: 10vh;
+                padding-bottom: 10vh;
             }
 
             section.text .icon {
@@ -74,8 +101,13 @@
             section.text.left .icon {
                 right: 0;
                 left: 50%;
-
             }
+
+h2 {
+    padding-bottom: 3vh;
+}
+
+
 
             section.text .icon .fa {
                 position: absolute;
@@ -95,7 +127,18 @@
                 margin-right: 50%;
             }
 
+            div.icon > img {
+                width: 20vw;
+                height: auto;
+            }
+
+
+
             section.text h2 {
                 font-size: 36px;
                 font-weight: normal;
             }
+
+audio {
+    color: aqua;
+}
