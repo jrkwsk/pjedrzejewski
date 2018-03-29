@@ -103,9 +103,9 @@
                 left: 50%;
             }
 
-h2 {
-    padding-bottom: 3vh;
-}
+            h2 {
+                padding-bottom: 3vh;
+            }
 
 
 
@@ -139,6 +139,15 @@ h2 {
                 font-weight: normal;
             }
 
-audio {
-    color: aqua;
+            div.play {
+                width: 30px;
+                height: 30px;
+                background-image: url(../img/play.png);
+                background-position: top;
+                margin-bottom: 1vh;
+            }
+
+div.playing {
+    background-position: bottom; }
 }
+
