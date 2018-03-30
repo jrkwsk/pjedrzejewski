@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     $('.play').click(function () {
         var $this = $(this),
             audio = $this.siblings('audio')[0];
